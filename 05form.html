@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creando un formulario en HTML</title>
+</head>
+<body>
+    <p>Dentro del elemento form (abajo de este parrafo) va a haber mas elementos, esos son elementos anidados</p>
+    <p>dentro del elemento form, se debe dar el atributo action para indicar a que lugar se va a enviar la informacion ingresada en el formulario, de lo contrario debe hacerlo el backend</p>
+    <p>El atributo action se deja vacio para que el backend complete la ruta hacia donde va</p>
+    <p>Luego debe asignar el atributo method para indicar como va a enviar la informacion</p>
+    <form action="" method="get">
+        <label>Nombre</label>
+        <input type="text" name="Nombre" placeholder="Ingrese su nombre" />
+        <label>Apellido</label>
+        <input type="text" name="Apellido" placeholder="Ingrese su apellido"/>
+        <label>E-mail</label>
+        <input type="email" name="mail" placeholder="Ingrese su email"/>
+        <label>Password</label>
+        <input type="password" name="password"/>
+        <input type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>

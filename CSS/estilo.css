@@ -1,0 +1,15 @@
+/* esto es comentario en CSS */
+
+/*Estos comentarios pueden ser leidos por la consola del navegador*/
+
+p {
+    color:red
+}
+
+h1 {
+    color: green
+}
+
+h2 {
+    color:greenyellow
+}
