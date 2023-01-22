@@ -17,3 +17,11 @@ h2 {
 .comun {
     color: black;
 }
+
+body {
+    background-color: grey;
+}
+/** Con el # elijo por id para modificarlo*/
+#boton { 
+    color: red;
+}
